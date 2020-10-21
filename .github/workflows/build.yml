@@ -18,12 +18,8 @@ jobs:
     strategy:
       matrix:
         java:
-          - graalvm@
-          - zulu@
           - zulu@1.8
         os:
-          - ubuntu-latest
-          - macOS-latest
           - windows-latest
       fail-fast: false
     steps:
